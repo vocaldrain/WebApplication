@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <style>
+        body {
+            color: #000;
+            background: #fff;
+            margin: 0;
+            font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            height: 100vh;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .next-h1 {
+            border-right: 1px solid rgba(0, 0, 0, 0.3);
+            display: inline-block;
+            margin: 0 20px 0 0;
+            padding-right: 23px;
+            font-size: 24px;
+            font-weight: 500;
+            vertical-align: top;
+            line-height: 49px;
+            font-feature-settings: "rlig" 1, "calt" 1, "ss01" 1, "ss06" 1 !important;
+        }
+
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: #fff;
+                background: #000;
+            }
+
+            .next-h1 {
+                border-right: 1px solid rgba(255, 255, 255, 0.3);
+            }
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1 class="next-h1">Hello World</h1>
+
+</div>
+</body>
+</html>
